@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "openai-storytelling"
+version = "0.1.0"
+description = "A storytelling application utilizing the OpenAI API."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.0"
+openai = "^0.11.0"
+pydantic = "^1.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
